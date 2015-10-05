@@ -1017,3 +1017,8 @@ class NotSupportedOperation(Invalid):
 # Hitachi HNAS drivers
 class HNASConnError(CinderException):
     message = _("%(message)s")
+
+
+# Google Cloud Storage driver
+class GCSError(CinderException):
+    pass
